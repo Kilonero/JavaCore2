@@ -21,6 +21,5 @@ public class HomePhone extends Phone {
         System.out.println("Звенит звонок " + buzzer);
 
     }
-
 }
 
