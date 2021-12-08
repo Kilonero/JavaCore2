@@ -9,14 +9,6 @@ public class DemoPhone {
         Phone[] mob = {iphone, lg};
         for (int i = 0; i < mob.length; i++) {
             mob[i].call();
-
         }
-
-
-
-
-
-
     }
-
 }
