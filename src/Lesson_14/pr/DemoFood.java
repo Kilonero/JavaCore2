@@ -12,8 +12,10 @@ public class DemoFood {
         for (int i = 0; i < lunch.getCount(); i++) {
             foods[i].eat();
 
+
         }
     }
+
 }
 
 
