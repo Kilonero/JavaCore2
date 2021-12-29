@@ -1,5 +1,7 @@
 package Lesson_20;
 
+import java.util.Arrays;
+
 public class DemoBook {
     public static void main(String[] args) {
         Book[] books = {new Book("garry", "potter"),
@@ -9,7 +11,7 @@ public class DemoBook {
                 new Book("garry", "grotter")};
 
         printBokks(books);
-        sort(books);
+        Arrays.sort(books);
         printBokks(books);
 
 
