@@ -22,8 +22,8 @@ public class NumbersCount {
     private static void printNumbersCount(List<Integer> numbers) {
         Map<Integer, Integer> numberToCount = new HashMap<>();
         for (Integer number : numbers) {
-            //Integer integerCount = numberToCount.get(number);
-            //int count = integerCount != null ? integerCount : 0;
+             //Integer integerCount = numberToCount.get(number);
+             //int count = integerCount != null ? integerCount : 0;
             int count = numberToCount.getOrDefault(number, 0);
 
             numberToCount.put(number, count +1);
